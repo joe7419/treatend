@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Vital sign",
+    "list": [
+      {
+        "ati_id": 81,
+        "ati_title": "発熱",
+        "ati_content": "発熱、高熱、不明熱、微熱、悪寒、弛張熱。"
+      },
+      {
+        "ati_id": 48,
+        "ati_title": "高血圧",
+        "ati_content": "高血圧、血圧高値"
+      },
+      {
+        "ati_id": 26,
+        "ati_title": "血圧低下",
+        "ati_content": "低血圧、ショック、血圧低下"
+      },
+      {
+        "ati_id": 11,
+        "ati_title": "SpO2低下",
+        "ati_content": "SpO2低下、低酸素"
+      },
+      {
+        "ati_id": 86,
+        "ati_title": "頻脈",
+        "ati_content": "頻脈"
+      },
+      {
+        "ati_id": 60,
+        "ati_title": "徐脈",
+        "ati_content": "徐脈"
+      }
+    ]
+  },
+  {
+    "name": "Laboratory",
+    "list": [
+      {
+        "ati_id": 62,
+        "ati_title": "腎機能障害・腎不全",
+        "ati_content": "腎機能.{0,22}障害、腎機能.{0,22}低下、腎不全、腎機能.{0,22}悪化、腎機能.{0,22}増悪、腎障害、腎機能.{0,22}異常"
+      },
+      {
+        "ati_id": 4,
+        "ati_title": "CRP高値",
+        "ati_content": "炎症.{0,22}高値、CRP.{0,22}高値、CRP.{0,22}上昇、炎症.{0,22}上昇、炎症.{0,22}亢進、高度{0,22}炎症、高CRP"
+      },
+      {
+        "ati_id": 19,
+        "ati_title": "肝機能障害",
+        "ati_content": "肝機能.{0,22}障害、肝機能.{0,22}異常、肝障害、黄疸、黄染、肝機能悪化、肝萎縮、肝硬変"
+      },
+      {
+        "ati_id": 70,
+        "ati_title": "蛋白尿",
+        "ati_content": "蛋白尿、尿蛋白陽性、タンパク尿、尿タンパク陽性"
+      },
+      {
+        "ati_id": 78,
+        "ati_title": "ネフローゼ",
+        "ati_content": "ネフローゼ"
+      },
+      {
+        "ati_id": 13,
+        "ati_title": "アシドーシス",
+        "ati_content": "アシドーシス、アシデミア"
+      },
+      {
+        "ati_id": 34,
+        "ati_title": "血中K低下",
+        "ati_content": "低K、低カリウム、血中K.{0,22}低、血清K.{0,22}低、血中カリウム.{0,22}低、血清カリウム.{0,22}低"
+      },
+      {
+        "ati_id": 38,
+        "ati_title": "血中Na低下",
+        "ati_content": "低Na、低ナトリウム、血中Na.{0,22}低、血清Na.{0,22}低、血中ナトリウム.{0,22}低、血清ナトリウム.{0,22}低"
+      },
+      {
+        "ati_id": 32,
+        "ati_title": "血中Ca低値",
+        "ati_content": "低Ca、低カルシウム、血中Ca.{0,22}低、血清Ca.{0,22}低、血中カルシウム.{0,22}低、血清カルシウム.{0,22}低"
+      },
+      {
+        "ati_id": 31,
+        "ati_title": "血中Ca高値",
+        "ati_content": "高Ca、高カルシウム、血中Ca.{0,22}高、血中カルシウム.{0,22}高、、血清Ca.{0,22}高、血清カルシウム.{0,22}高"
+      },
+      {
+        "ati_id": 45,
+        "ati_title": "抗核抗体高値",
+        "ati_content": "抗核抗体.{0,22}陽性、抗核抗体.{0,22}上昇、抗核抗体.{0,22}強陽性、抗核抗体.{0,22}高値"
+      },
+      {
+        "ati_id": 6,
+        "ati_title": "LDH高値",
+        "ati_content": "LD.{0,22}上昇、LD.{0,22}増加、LD.{0,22}増多、LD.{0,22}高値"
+      },
+      {
+        "ati_id": 3,
+        "ati_title": "CK高値",
+        "ati_content": "CK.{0,22}上昇、CK.{0,22}増加、CK.{0,22}増多、CK.{0,22}高値、CPK.{0,22}上昇、CPK.{0,22}増加、CPK.{0,22}増多、CPK.{0,22}高値"
+      },
+      {
+        "ati_id": 94,
+        "ati_title": "補体低下",
+        "ati_content": "補体.{0,22}低下、補体.{0,22}減少、低補体"
+      },
+      {
+        "ati_id": 87,
+        "ati_title": "フェリチン高値",
+        "ati_content": "フェリチン.{0,22}上昇、フェリチン.{0,22}増加、フェリチン.{0,22}増多、フェリチン.{0,22}高値"
+      },
+      {
+        "ati_id": 36,
+        "ati_title": "血中Mg低下",
+        "ati_content": "低Mg、低マグネシウム、血中Mg.{0,22}低、血清Mg.{0,22}低、血中マグネシウム.{0,22}低、血清マグネシウム.{0,22}低"
+      },
+      {
+        "ati_id": 10,
+        "ati_title": "sIL-2R高値",
+        "ati_content": "sil.{0,22}上昇、sil.{0,22}増加、sil.{0,22}増多、sil.{0,22}高値"
+      },
+      {
+        "ati_id": 7,
+        "ati_title": "M蛋白陽性",
+        "ati_content": "M蛋白血症、M蛋白陽性、M蛋白を認め"
+      },
+      {
+        "ati_id": 40,
+        "ati_title": "血中P低下",
+        "ati_content": "低P、低リン、血中P.{0,22}低、血清P.{0,22}低、血中リン.{0,22}低、血清リン.{0,22}低"
+      },
+      {
+        "ati_id": 14,
+        "ati_title": "アルカローシス",
+        "ati_content": "アルカローシス、アルカレミア"
+      },
+      {
+        "ati_id": 51,
+        "ati_title": "呼吸性アシドーシス・CO2ナルコーシス",
+        "ati_content": "呼吸性アシドーシス、CO2ナルコーシス"
+      },
+      {
+        "ati_id": 33,
+        "ati_title": "血中K高値",
+        "ati_content": "高K、高カリウム、血中K.{0,22}高、血清K.{0,22}高、血中カリウム.{0,22}高、血清カリウム.{0,22}高"
+      },
+      {
+        "ati_id": 1,
+        "ati_title": "ALP高値",
+        "ati_content": "ALP.{0,22}上昇、ALP.{0,22}増加、ALP.{0,22}増多、ALP.{0,22}高値、胆道系酵素上昇.{0,22}上昇、胆道系酵素上昇.{0,22}増加、胆道系酵素上昇.{0,22}増多、胆道系酵素上昇.{0,22}高値"
+      },
+      {
+        "ati_id": 39,
+        "ati_title": "血中P高値",
+        "ati_content": "高P、高リン、血中P.{0,22}高、血清P.{0,22}高、血中リン.{0,22}高、血清リン.{0,22}高"
+      },
+      {
+        "ati_id": 65,
+        "ati_title": "代謝性アルカローシス",
+        "ati_content": "代謝性アルカローシス"
+      },
+      {
+        "ati_id": 12,
+        "ati_title": "VEGF高値",
+        "ati_content": "VEGF.{0,22}上昇、VEGF.{0,22}増加、VEGF.{0,22}増多、VEGF.{0,22}高値"
+      },
+      {
+        "ati_id": 37,
+        "ati_title": "血中Na高値",
+        "ati_content": "高Na、高ナトリウム、血中Na.{0,22}高、血清Na.{0,22}高、血中ナトリウム.{0,22}高、血清ナトリウム.{0,22}高"
+      },
+      {
+        "ati_id": 8,
+        "ati_title": "RF高値",
+        "ati_content": "RF.{0,22}上昇、RF.{0,22}増加、RF.{0,22}増多、RF.{0,22}陽性、RF.{0,22}高値"
+      },
+      {
+        "ati_id": 35,
+        "ati_title": "血中Mg高値",
+        "ati_content": "高Mg、高マグネシウム、血中Mg.{0,22}高、血清Mg.{0,22}高、血中マグネシウム.{0,22}高、血清マグネシウム.{0,22}高"
+      },
+      {
+        "ati_id": 47,
+        "ati_title": "高ガンマグロブリン血症",
+        "ati_content": "高ガンマグロブリン血症、ガンマグロブリン高値"
+      },
+      {
+        "ati_id": 72,
+        "ati_title": "低蛋白血症",
+        "ati_content": "低蛋白、低アルブミン"
+      }
+    ]
+  },
+  {
+    "name": "Symptom",
+    "list": [
+      {
+        "ati_id": 43,
+        "ati_title": "倦怠感",
+        "ati_content": "倦怠感、脱力、体調不良"
+      },
+      {
+        "ati_id": 90,
+        "ati_title": "浮腫",
+        "ati_content": "浮腫、眼瞼腫脹、肢腫脹"
+      },
+      {
+        "ati_id": 15,
+        "ati_title": "意識障害・変容",
+        "ati_content": "意識変容、意識障害、意識レベル低下、意識混濁、意識朦朧、意識もうろう、興奮、不穏、傾眠、せん妄、昏迷、失見当識"
+      },
+      {
+        "ati_id": 63,
+        "ati_title": "頭痛",
+        "ati_content": "頭痛"
+      },
+      {
+        "ati_id": 50,
+        "ati_title": "呼吸困難",
+        "ati_content": "呼吸困難、呼吸苦、息切れ、息苦、起座呼吸"
+      },
+      {
+        "ati_id": 88,
+        "ati_title": "腹痛",
+        "ati_content": "腹痛、腹部痛、心窩部痛、季肋部痛"
+      },
+      {
+        "ati_id": 17,
+        "ati_title": "嘔吐",
+        "ati_content": "嘔気、嘔吐、吐き気、悪心、吐気、気分不良"
+      },
+      {
+        "ati_id": 20,
+        "ati_title": "関節症状",
+        "ati_content": "関節症状、関節痛、関節腫脹、関節炎"
+      },
+      {
+        "ati_id": 58,
+        "ati_title": "食欲不振",
+        "ati_content": "食欲不振、食思不振、食欲低下、食思低下"
+      },
+      {
+        "ati_id": 18,
+        "ati_title": "咳嗽",
+        "ati_content": "咳嗽、咳"
+      },
+      {
+        "ati_id": 53,
+        "ati_title": "四肢痛",
+        "ati_content": "四肢.{0,22}痛、下肢.{0,22}痛、上肢.{0,22}痛、大腿.{0,22}痛、下腿.{0,22}痛"
+      },
+      {
+        "ati_id": 25,
+        "ati_title": "けいれん",
+        "ati_content": "けいれん、痙攣"
+      },
+      {
+        "ati_id": 66,
+        "ati_title": "体重減少",
+        "ati_content": "体重減少、体重低下"
+      },
+      {
+        "ati_id": 23,
+        "ati_title": "筋肉痛",
+        "ati_content": "筋肉痛、筋.{0,22}痛"
+      },
+      {
+        "ati_id": 61,
+        "ati_title": "視力障害",
+        "ati_content": "視力障害、視力低下、視野異常、視野障害、複視、視野狭窄"
+      },
+      {
+        "ati_id": 22,
+        "ati_title": "胸背部痛",
+        "ati_content": "胸痛、背部痛、胸部違和感"
+      },
+      {
+        "ati_id": 16,
+        "ati_title": "咽頭痛",
+        "ati_content": "咽頭痛"
+      },
+      {
+        "ati_id": 98,
+        "ati_title": "腰痛",
+        "ati_content": "腰痛"
+      },
+      {
+        "ati_id": 67,
+        "ati_title": "多飲",
+        "ati_content": "多飲"
+      },
+      {
+        "ati_id": 97,
+        "ati_title": "めまい",
+        "ati_content": "めまい、ふらつき"
+      },
+      {
+        "ati_id": 68,
+        "ati_title": "多尿",
+        "ati_content": "多尿、尿量増加"
+      },
+      {
+        "ati_id": 54,
+        "ati_title": "失神",
+        "ati_content": "失神、一過性意識障害、一過性意識.{0,22}低下"
+      },
+      {
+        "ati_id": 89,
+        "ati_title": "腹部膨満感",
+        "ati_content": "膨満感、腹部違和感、心窩部不快感"
+      },
+      {
+        "ati_id": 95,
+        "ati_title": "しびれ",
+        "ati_content": "末梢神経障害、しびれ、痺れ、異常知覚、感覚異常、感覚鈍麻、知覚障害"
+      },
+      {
+        "ati_id": 91,
+        "ati_title": "便秘",
+        "ati_content": "便秘"
+      },
+      {
+        "ati_id": 57,
+        "ati_title": "消化管出血",
+        "ati_content": "消化管出血、吐血、下血、吐下血、血便、タール便"
+      },
+      {
+        "ati_id": 30,
+        "ati_title": "血痰",
+        "ati_content": "血痰"
+      },
+      {
+        "ati_id": 24,
+        "ati_title": "頚部痛",
+        "ati_content": "頚部痛"
+      },
+      {
+        "ati_id": 92,
+        "ati_title": "乏尿・無尿",
+        "ati_content": "乏尿、無尿"
+      },
+      {
+        "ati_id": 64,
+        "ati_title": "喘鳴",
+        "ati_content": "喘鳴、wheezing"
+      },
+      {
+        "ati_id": 41,
+        "ati_title": "結膜充血",
+        "ati_content": "結膜.{0,22}充血、結膜炎、結膜.{0,22}発赤"
+      },
+      {
+        "ati_id": 52,
+        "ati_title": "嗄声",
+        "ati_content": "嗄声、かすれ"
+      },
+      {
+        "ati_id": 76,
+        "ati_title": "尿閉",
+        "ati_content": "尿閉"
+      },
+      {
+        "ati_id": 29,
+        "ati_title": "結節性紅斑",
+        "ati_content": "結節性紅斑"
+      },
+      {
+        "ati_id": 56,
+        "ati_title": "羞明",
+        "ati_content": "羞明、光過敏"
+      },
+      {
+        "ati_id": 102,
+        "ati_title": "寝汗",
+        "ati_content": "寝汗、盗汗"
+      },
+      {
+        "ati_id": 104,
+        "ati_title": "口内炎",
+        "ati_content": "口内炎、口腔内潰瘍、口内潰瘍"
+      },
+      {
+        "ati_id": 105,
+        "ati_title": "皮膚変化",
+        "ati_content": "皮疹、紅斑、紫斑、湿疹、丘疹、発疹、皮膚病変、皮膚障害"
+      },
+      {
+        "ati_id": 107,
+        "ati_title": "構音障害",
+        "ati_content": "構音障害、呂律困難、呂律障害、失語、構語障害"
+      },
+      {
+        "ati_id": 109,
+        "ati_title": "血尿",
+        "ati_content": "赤血球円柱、血尿、尿潜血"
+      },
+      {
+        "ati_id": 110,
+        "ati_title": "嚥下障害",
+        "ati_content": "嚥下障害、嚥下困難"
+      },
+      {
+        "ati_id": 111,
+        "ati_title": "歩行障害",
+        "ati_content": "歩行困難、歩行障害、失調性歩行、跛行"
+      },
+      {
+        "ati_id": 112,
+        "ati_title": "筋力低下",
+        "ati_content": "筋力低下、脱力"
+      },
+      {
+        "ati_id": 113,
+        "ati_title": "振戦・不随意運動",
+        "ati_content": "振戦、不随意運動"
+      },
+      {
+        "ati_id": 115,
+        "ati_title": "口渇",
+        "ati_content": "口渇。"
+      }
+    ]
+  },
+  {
+    "name": "CBC",
+    "list": [
+      {
+        "ati_id": 85,
+        "ati_title": "貧血",
+        "ati_content": "貧血"
+      },
+      {
+        "ati_id": 27,
+        "ati_title": "血小板減少",
+        "ati_content": "血小板.{0,22}減少、血小板数.{0,22}減少、血小板.{0,22}低下"
+      },
+      {
+        "ati_id": 49,
+        "ati_title": "好酸球増多",
+        "ati_content": "好酸球.{0,22}増多、好酸球.{0,22}増加、好酸球数.{0,22}増多、好酸球.{0,22}上昇、好酸球.{0,22}著増"
+      },
+      {
+        "ati_id": 82,
+        "ati_title": "汎血球減少",
+        "ati_content": "汎血球減少"
+      },
+      {
+        "ati_id": 28,
+        "ati_title": "血小板増多",
+        "ati_content": "血小板.{0,22}増多、血小板.{0,22}上昇、血小板数.{0,22}上昇、血小板数.{0,22}増多、血小板.{0,22}増加、血小板数.{0,22}増加"
+      },
+      {
+        "ati_id": 80,
+        "ati_title": "白血球減少",
+        "ati_content": "白血球.{0,22}減少、白血球数.{0,22}減少、白血球.{0,22}軽度減少"
+      },
+      {
+        "ati_id": 69,
+        "ati_title": "単球増加",
+        "ati_content": "単球.{0,22}増加、単球.{0,22}増多、単核球.{0,22}上昇、単核球.{0,22}増多、単核球.{0,22}増加、単球.{0,22}上昇"
+      },
+      {
+        "ati_id": 108,
+        "ati_title": "好中球減少",
+        "ati_content": "好中球減少"
+      }
+    ]
+  },
+  {
+    "name": "Imaging feature",
+    "list": [
+      {
+        "ati_id": 96,
+        "ati_title": "胸腹水",
+        "ati_content": "胸水、 胸腹水、腹水、体液貯留"
+      },
+      {
+        "ati_id": 99,
+        "ati_title": "リンパ節腫大",
+        "ati_content": "リンパ節.{0,22}腫大、リンパ節.{0,22}腫脹"
+      },
+      {
+        "ati_id": 21,
+        "ati_title": "肝脾腫",
+        "ati_content": "肝脾腫、肝腫大、脾腫"
+      },
+      {
+        "ati_id": 75,
+        "ati_title": "動脈瘤破裂",
+        "ati_content": "動脈瘤破裂"
+      },
+      {
+        "ati_id": 101,
+        "ati_title": "肺陰影",
+        "ati_content": "肺.{0,22}陰影、肺.{0,22}浸潤、肺.{0,22}網状、肺.{0,22}すりガラス、肺.{0,22}斑状、肺.{0,22}粒状、肺.{0,22}結節"
+      },
+      {
+        "ati_id": 103,
+        "ati_title": "脂肪織炎",
+        "ati_content": "脂肪織濃度上昇、脂肪織炎、脂肪織混濁"
+      },
+      {
+        "ati_id": 114,
+        "ati_title": "心肥大",
+        "ati_content": "心肥大、心.{0,22}壁肥厚、隔肥厚、隔肥大"
+      }
+    ]
+  },
+  {
+    "name": "History",
+    "list": [
+      {
+        "ati_id": 74,
+        "ati_title": "動物接触歴",
+        "ati_content": "動物.{0,30}接触、犬、猫、豚、ヤギ、鶏、ネズミ、鼠、市場、野外.{0,30}活動、農業、河、川、咬傷、農家、農作業"
+      }
+    ]
+  }
+]
