@@ -1,0 +1,32 @@
+GET http://localhost:8082/api/caselist?page=1&per_page=20
+
+
+###
+POST http://localhost:8082/api/disease_score
+#Cookie: JSESSIONID=AE2EC34DFB==;
+Content-Type: application/json
+
+[
+  1,
+  2,
+  3,
+  4,
+  5
+]
+
+###
+GET http://localhost:8082/api/public/symptoms_list
+#Cookie: JSESSIONID=AE2EC34DFB==;
+
+###
+POST http://localhost:8082/api/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "12345"
+}
+
+###
+GET http://localhost:8082/api/public/disease_search?body=甲状腺
+
