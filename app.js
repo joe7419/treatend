@@ -42,7 +42,8 @@ database.create_connection(config.mysql, (connection) => {
 
     app.use('/api', case_router)
 
-    app.listen(8082, () => {
-        console.log('running on localhost:8082')
+    app.listen(process.env.PORT || 8080 , () => {
+        //console.log(`server starting at ${config.host}:${config.port}`)
+        console.log(`server starting at 127.0.0.1:8080`)
     })
 })
