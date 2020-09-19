@@ -8,10 +8,6 @@ var pool  = mysql.createPool({
   database:'heroku_2ae8333a90f6be8'
 });
  
-pool.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
-  if (error) throw error;
-  console.log('The solution is: ', results[0].solution);
-});
 
 
 
@@ -63,6 +59,11 @@ database.create_connection(config.mysql, (connection) => {
         //console.log(`server starting at ${config.host}:${config.port}`)
         console.log(`server starting at 127.0.0.1:8082`)
     })
+
+    pool.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+        if (error) throw error;
+        console.log('The solution is: ', results[0].solution);
+      });
 })
 
 
