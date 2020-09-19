@@ -46,8 +46,4 @@ database.create_connection(config.mysql, (connection) => {
         //console.log(`server starting at ${config.host}:${config.port}`)
         console.log(`server starting at 127.0.0.1:8082`)
     })
-
-
 })
-
-
