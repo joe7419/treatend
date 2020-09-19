@@ -3,7 +3,7 @@ const mysql = require('mysql');
 function create_connection() {
     const pool = mysql.createPool({
         connectionLimit : 10,
-        host: 'us-cdbr-east-02.cleardb.comyour host',
+        host: 'us-cdbr-east-02.cleardb.com',
         user:'b3d9ccad29aa7e',
         password:'b1817360',
         database:'heroku_2ae8333a90f6be8',    
