@@ -1,7 +1,7 @@
 const mysql = require('mysql');
 
 function create_connection(conf, callback) {
-    const connection = mysql.createConnection(conf)
+    const connection = mysql.createPool(conf)
     connection.connect(function (err) {
         if (err) {
             console.error('error connecting: ' + err.stack);

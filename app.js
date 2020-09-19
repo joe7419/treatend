@@ -1,5 +1,4 @@
 const express = require('express')
-const mysql = require('mysql');
 const config = require('./conf.json')
 const database = require('./src/libs/database.js')
 const bodyParser = require('body-parser')
@@ -26,7 +25,7 @@ app.get(/^(?!\/api).*$/, (req, res) => {
 
 app.use(cookieParser())
 // app.use(morgan('combined'))
-database.createPool(config.mysql, (connection) => {
+database.create_connection(config.mysql, (connection) => {
     app.use('/api',login_router);
 
     app.use((req, res, next) => {
