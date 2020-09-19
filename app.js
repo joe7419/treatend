@@ -1,29 +1,19 @@
 //MySQL连接断开时自动重连
 var mysql = require('mysql');
-var mysql_config = {
-    host: 'us-cdbr-east-02.cleardb.com',
-    user:'b3d9ccad29aa7e',
-    password:'b1817360',
-    database:'heroku_2ae8333a90f6be8'
-};
-function disconnect_handler() {
-    let conn = mysql.createConnection(mysql_config);
-     conn.connect(err => {
-         (err) && setTimeout('disconnect_handler()', 2000);
-     });
+var pool  = mysql.createPool({
+  connectionLimit : 10,
+  host: 'us-cdbr-east-02.cleardb.com',
+  user:'b3d9ccad29aa7e',
+  password:'b1817360',
+  database:'heroku_2ae8333a90f6be8'
+});
  
-     conn.on('error', err => {
-         if (err.code === 'PROTOCOL_CONNECTION_LOST') {
-             // db error 自动重连
-             disconnect_handler();
-         } else {
-             throw err;
-         }
-     });
-     exports.conn = conn;
- }
- 
- exports.disconnect_handler =  disconnect_handler;
+pool.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+  if (error) throw error;
+  console.log('The solution is: ', results[0].solution);
+});
+
+
 
 const express = require('express')
 const config = require('./conf.json')
