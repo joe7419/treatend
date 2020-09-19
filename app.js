@@ -1,4 +1,5 @@
 const express = require('express')
+const mysql = require('mysql');
 const config = require('./conf.json')
 const database = require('./src/libs/database.js')
 const bodyParser = require('body-parser')
