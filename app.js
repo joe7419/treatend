@@ -1,17 +1,3 @@
-//MySQL连接断开时自动重连
-const pool = mysql.createPool({
-    host: 'us-cdbr-east-02.cleardb.com',
-    user:'b3d9ccad29aa7e',
-    password:'b1817360',
-    database:'heroku_2ae8333a90f6be8'
-  });
-  
-  // ... later
-  pool.query('select 1 + 1', (err, rows) => { /* */ });
-
-
-
-
 const express = require('express')
 const config = require('./conf.json')
 const database = require('./src/libs/database.js')
@@ -39,7 +25,7 @@ app.get(/^(?!\/api).*$/, (req, res) => {
 
 app.use(cookieParser())
 // app.use(morgan('combined'))
-database.create_connection(config.mysql, (connection) => {
+database.createPool(config.mysql, (connection) => {
     app.use('/api',login_router);
 
     app.use((req, res, next) => {
