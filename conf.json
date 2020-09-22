@@ -1,8 +1,9 @@
 {
   "mysql": {
-    "host"     : "us-cdbr-east-02.cleardb.com",
-    "user"     : "b3d9ccad29aa7e",
-    "password" : "b1817360",
-    "database" : "heroku_2ae8333a90f6be8"
+    "host"     : "test-do-user-8050374-0.b.db.ondigitalocean.com",
+    "user"     : "jorux",
+    "password" : "r2z0sbcadgye0t5x",
+    "database" : "bluecssr_sign",
+    "port" : "25060"
   }
 }
